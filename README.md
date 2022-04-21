@@ -6,3 +6,10 @@ Contributor: [`Ankit Sachin Dhokariya`](https://github.com/ankit-dhokariya/CMPE-
 
 Output:
 <img src="https://github.com/ankit-dhokariya/CMPE-279/blob/main/Assignment%201/Output.png">
+
+## Assignment 2
+
+Contributor: [`Ankit Sachin Dhokariya`](https://github.com/ankit-dhokariya/CMPE-279/tree/main/Assignment%202)
+
+Output:
+<img src="https://github.com/ankit-dhokariya/CMPE-279/blob/main/Assignment%202/Output.png">
