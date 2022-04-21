@@ -32,7 +32,6 @@ int main(int argc, char const *argv[])
         valread = read(new_Soc, buffer, 1024);
         printf("%s\n", buffer);
         send(new_Soc, hello, strlen(hello), 0);
-
         printf("Hello message sent\n");
         exit(0);
 
@@ -87,10 +86,10 @@ int main(int argc, char const *argv[])
         uid = getuid();
         printf("Privilege Dropped\nCurrent UId:%d (%s)\n\n", uid, getpwuid(uid)->pw_name);
 
-        valread = read( new_socket , buffer, 1024);
-        printf("%s\n",buffer );
-        send(new_socket , hello , strlen(hello) , 0 );
-        printf("Hello message sent\n");
+        // valread = read( new_socket , buffer, 1024);
+        // printf("%s\n",buffer );
+        // send(new_socket , hello , strlen(hello) , 0 );
+        // printf("Hello message sent\n");
 
         int copysocket = dup(new_socket);
 
